@@ -3,3 +3,6 @@
 
 06/04 
 -I made an calculator using float functions and practiced the coding for rounding!! And I don't know anything about git and github so I just kind of done it without understanding it. I will have some time to actually study hard and understand how git works and how to use the github properly:)
+
+06/21
+-I made a function by using code def- and I am having kind of a hard time trying to understand it properly... 
