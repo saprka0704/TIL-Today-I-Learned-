@@ -6,3 +6,7 @@
 
 06/21
 -I made a function by using code def- and I am having kind of a hard time trying to understand it properly... 
+
+
+08/21
+-I started python again after summer vacation... I will be consistent from now on. I studied about operators today and it is kind of tricky...
