@@ -1,0 +1,22 @@
+#Operators
+mathematical operators: +, -, *, /, %, **, //
+comparison operators: >, <, >=, <=, ==, !=
+logical operators: and, or, not
+augmented assignment operator: +=, -=, *=, /=, %=, **=, //=
+
+#math functions
+abs(x)
+pow(x,y)
+max(), min()
+round(x,d)
+
+#math modules
+Write "from 'module name' import 'function'"
+floor()
+ceil()
+sqrt()
+
+#random modules
+random()
+randint(): inclusive
+randrange()
