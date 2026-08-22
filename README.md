@@ -10,3 +10,6 @@
 
 08/21
 -I started python again after summer vacation... I will be consistent from now on. I studied about operators today and it is kind of tricky...
+
+0822
+-Today I studied about how to program with strings. The hardest part was the project that I have done after studying the basics and it was quite hard to think by myself and actually do it... It was a nice try though.
