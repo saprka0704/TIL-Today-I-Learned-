@@ -8,3 +8,9 @@ my_str = my_str[:my_str.index(".")]
 password = my_str[:3] + str(len(my_str)) + str(my_str.count("o")) + "!"
 
 print("The password for {0} is {1}".format(url,password))
+
+#How I tried for the first time
+letter = url[8:14]
+print("{}{}{}!".format(letter[:3], len(letter), letter.count("o")))
+
+
