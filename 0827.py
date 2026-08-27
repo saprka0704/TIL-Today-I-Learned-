@@ -48,4 +48,62 @@ print(cabinet.get(100))
 print(cabinet.get(5))
 #print(cabinet[5]) #without the key '5' the program malfunctions and shuts down
 
+print(cabinet.get(5,"available")) #without the key '5' we can use the get function to return the default value, in this case it is 'available'
 
+print(3 in cabinet)
+print(100 in cabinet) #use the 'in' operator to check if the exact key is in the dictionary
+
+cabinet = {"A-3": "Pooh", "B-100": "Piglet"}
+print(cabinet["A-3"])
+print(cabinet["B-100"])
+
+cabinet["A-3"] = "Tigger" #change the value of the key 'A-3'
+cabinet["C-20"] = "Eeyore" #add a new key with a new value to the dictionary
+print(cabinet)
+
+del cabinet["A-3"] #delete the value of the key
+print(cabinet)
+
+print(cabinet.keys()) #check the keys of the dictionary with the keys function
+print(cabinet.values()) #check the values of the dictionary with the values function
+print(cabinet.items()) #check the corresponding keys and values of the dictionary with the items function
+
+cabinet.clear() #clear all the keys and the values of the dictionary with the clear function
+print(cabinet)
+
+#tuple: can't change/add/delete the value of a tuple -> tuple name = (value1, value2, ...)
+coffee = ("espresso", "cappuchino")
+print(coffee[0])
+print(coffee[1])
+
+(departure, arrival) = ("Gimpo", "Jeju")
+print(departure, ">", arrival )
+(departure, arrival) = (arrival, departure) # use tuples to change the values of the variable easily
+print(departure, ">", arrival)
+
+#set: do not allow repetition, and don't guarantee the sequence of the values
+my_set = {1,2,3,3,3}
+print(my_set)
+
+java={"Pooh", "Piglet", "Tigger"}
+python = set(["Pooh", "Eeyore"]) # can define set with set()
+
+print(java & python) #find the intersection of the two set with '&' or intersection function
+print(java.intersection(python))
+
+print(java|python) #find the union of the two set with '|' or union function
+print(java.union(python))
+
+print(java-python) #find the difference of the two sets with '-' or difference function
+print(java.difference(python))
+
+python.add("Piglet") #add a value to the set with the add function
+print(python)
+java.remove("Piglet") #remove a value of the set with the remove function
+print(java)
+
+#change the data structure between list, set and tuples; list = [], tuple = (), set = {}
+menu = {"coffee", "milk", "juice"}
+menu = list(menu)
+print(menu)
+print(type(menu))
