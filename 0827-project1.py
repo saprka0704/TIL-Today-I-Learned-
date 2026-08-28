@@ -1,5 +1,5 @@
 # using the shuffle(), and sample() to draw winners for the comment event
-from random import * # use the random module for shuffle and sample functions
+from random import * # to use the functions of the random module 
 
 user = range(1,21) #class=range
 user = list(user)  #change the data structure to 'list'
