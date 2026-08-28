@@ -13,3 +13,6 @@
 
 0822
 -Today I studied about how to program with strings. The hardest part was the project that I have done after studying the basics and it was quite hard to think by myself and actually do it... It was a nice try though.
+
+0827
+-Today I learned about data structure 'list', 'dictionary', 'tuple' and 'set'. Using the shuffle function, and the sample function of the random module I made a project of drawing winners for the comment event. It was not that hard, so I would like to keep studying python!
