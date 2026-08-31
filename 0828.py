@@ -33,7 +33,13 @@ while index >= 1:
     print("{} times left!".format(index))
     if index == 0:
         print("Discarding the coffee~!")
-       
+
+customer = "Thor"
+person = None
+while person != customer:
+    print("{}, your coffe is ready!".format(customer))
+    person = input("What is your name?")
+           
 
 #continue & break: continue to the next repeating target/ to break the loop and escape
 absent = [2,5]
