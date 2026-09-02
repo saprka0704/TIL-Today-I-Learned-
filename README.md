@@ -10,8 +10,10 @@
 
 08/21
 -I started python again after summer vacation... I will be consistent from now on. I studied about operators today.
-Operator is a symbol or a keyword that performs various operation on one or more values/variables. There are various type of operators including arithmetic operators(used for mathematical calculations), comparison operators(used for comparison), logical operators(used to combine conditions), assignment operators(used to assign values to variables) and etc. There are functions that deal with numerical values (abs(x), pow(x,y), max()/min(), round(x,d)) and there are modules that enables us to use the code that python contains(to use a function of module write 'from -module_name- import -function-')
-For example from math module there are functions like floor()/ceil()/sqrt() and from random module there are functions like random()/randrange()/randint()/shuffle()/sample()
+Operator is a symbol or a keyword that performs various operation on one or more values/variables. 
+There are various type of operators including arithmetic operators(used for mathematical calculations), comparison operators(used for comparison), logical operators(used to combine conditions), assignment operators(used to assign values to variables) and etc. 
+There are functions that deal with numerical values (abs(x), pow(x,y), max()/min(), round(x,d)) and there are modules that enables us to use the code that python contains(to use a function of module write 'from -module_name- import -function-').
+For example from math module there are functions like floor()/ceil()/sqrt() and from random module there are functions like random()/ randrange()/ randint()/ shuffle()/ sample()
 
 
 0822
